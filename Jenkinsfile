@@ -2,8 +2,8 @@
 
   agent any
   environment {
-     TF_VAR_okta_group_name=$(params.groupname)
-     TF_VAR_okta_group_description=$(params.description)
+     okta_group_name=$(params.groupname)
+     okta_group_description=$(params.description)
 }
 
   
