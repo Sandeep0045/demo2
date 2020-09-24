@@ -6,7 +6,7 @@
      TF_VAR_okta_group_description=$(params.description)
 }
 
-  }
+  
   stages {
 
     stage('TF Plan') {
